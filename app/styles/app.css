@@ -2,6 +2,9 @@
 font-family: 'Oxygen', sans-serif;
 font-family: 'Bree Serif', serif;
 */
+body {
+    font-family: 'Oxygen', sans-serif;
+}
 
 .navbar-nav {
     float: right;
@@ -21,13 +24,13 @@ font-family: 'Bree Serif', serif;
 #nav-contents {
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #ffffff;
-    border-bottom: 0px white;
+    border-bottom: 1px black;
 }
 
 #nav-menu {
     color: #c60000;
     font-weight: 500;
+    float: right;
 }
 
 #supa-header {
@@ -35,6 +38,7 @@ font-family: 'Bree Serif', serif;
     font-family: 'Dosis', sans-serif;
     font-weight: 900;
     color: #c60000;
+    list-style-type: none;
 }
 
 #nav-tag {
