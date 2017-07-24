@@ -1,7 +1,7 @@
 /* eslint-env node */
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'supa-price',
     environment,
@@ -16,6 +16,15 @@ module.exports = function(environment) {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
       }
+    },
+
+    firebase: {
+      apiKey: "AIzaSyAyaF_VEz9lmE-GGF49t1GysZo5bxpwL7o",
+      authDomain: "products-41075.firebaseapp.com",
+      databaseURL: "https://products-41075.firebaseio.com",
+      projectId: "products-41075",
+      storageBucket: "products-41075.appspot.com",
+      messagingSenderId: "805367717729"
     },
 
     APP: {

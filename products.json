@@ -1,0 +1,274 @@
+{
+    "products": {
+        "1": {
+            "name": "White Bread (500g)",
+            "image": "https://www.browneyedbaker.com/wp-content/uploads/2016/05/white-bread-51-600-600x400.jpg",
+            "Naivas": 50,
+            "Nakumatt": 52,
+            "Tuskys": 51,
+            "Uchumi": 50,
+            "category": "Food & Drinks"
+        },
+        "2": {
+            "name": "Brown Bread (500g)",
+            "image": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/recipes/beard-myrtle-brown-bread-istock.jpg",
+            "Naivas": 70,
+            "Nakumatt": 72,
+            "Tuskys": 71,
+            "Uchumi": 80,
+            "category": "Food & Drinks"
+        },
+        "3": {
+            "name": "Soy Milk",
+            "image": "https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimages/67961dd3-11dd-4e0b-8564-4f8eb9545973.png._CB316354561_.png",
+            "Naivas": 80,
+            "Nakumatt": 74,
+            "Tuskys": 77,
+            "Uchumi": 84,
+            "category": "Food & Drinks"
+        },
+        "4": {
+            "name": "Dairy Milk",
+            "image": "http://www.legendairy.com.au/~/media/legendairy/images/lhp/milk-carton-thumbnail.jpg?h=600&la=en&w=600",
+            "Naivas": 60,
+            "Nakumatt": 55,
+            "Tuskys": 50,
+            "Uchumi": 55,
+            "category": "Food & Drinks"
+        },
+        "5": {
+            "name": "Minute Maid",
+            "image": "https://i5.walmartimages.com/asr/dadef3bc-4fb9-4221-b9b9-6b2c072a17bd_1.ae4ffc82912085e6fb7e5624a042c51b.jpeg",
+            "Naivas": 65,
+            "Nakumatt": 60,
+            "Tuskys": 60,
+            "Uchumi": 65,
+            "category": "Food & Drinks"
+        },
+        "6": {
+            "name": "Basmati Rice (5kg)",
+            "image": "https://www.ocado.com/productImages/121/12133011_0_640x640.jpg?identifier=c8aaa7fea296612d83b35ae986b0c6cf",
+            "Naivas": 500,
+            "Nakumatt": 550,
+            "Tuskys": 600,
+            "Uchumi": 570,
+            "category": "Food & Drinks"
+        },
+        "7": {
+            "name": "Coca Cola (500ml)",
+            "image": "https://www.poundstretcher.co.uk/media/catalog/product/cache/1/image/686x/9df78eab33525d08d6e5fb8d27136e95/c/o/coke_1.jpg",
+            "Naivas": 60,
+            "Nakumatt": 60,
+            "Tuskys": 60,
+            "Uchumi": 55,
+            "category": "Food & Drinks"
+        },
+        "8": {
+            "name": "Sprite (500ml)",
+            "image": "http://gomart.pk/image/data/incoming/WebRoot/BT2/Shops/BT3918/4BC2/F26F/049B/6ACC/EA69/0A0A/33E7/2AF2/sprite-500ml-gomart-pakistan-1482.jpg",
+            "Naivas": 60,
+            "Nakumatt": 60,
+            "Tuskys": 60,
+            "Uchumi": 55,
+            "category": "Food & Drinks"
+        },
+        "9": {
+            "name": "Colgate Toothpaste (250ml)",
+            "image": "https://static.chemistwarehouse.com.au/ams/media/pi/62733/3DF_800.jpg",
+            "Naivas": 80,
+            "Nakumatt": 85,
+            "Tuskys": 75,
+            "Uchumi": 80,
+            "category": "Hygiene"
+        },
+        "10": {
+            "name": "Nivea Lotion For Men (200ml)",
+            "image": "https://www.mccabespharmacy.com/media/catalog/product/cache/1/image/650x650/9df78eab33525d08d6e5fb8d27136e95/n/i/nivea_for_men_rehydrating_moisturiser_75ml_1_.jpg",
+            "Naivas": 200,
+            "Nakumatt": 220,
+            "Tuskys": 250,
+            "Uchumi": 180,
+            "category": "Personal Grooming"
+        },
+        "11": {
+            "name": "Contour Kit",
+            "image": "https://www.beautyheaven.com.au/sites/default/files/products/CONTOUR-PROD-LIGHT-MED-bh.jpg",
+            "Naivas": 500,
+            "Nakumatt": 600,
+            "Tuskys": 550,
+            "Uchumi": 575,
+            "category": "Personal Grooming"
+        },
+        "12": {
+            "name": "Shaving Razor",
+            "image": "http://www.theartofshaving.com/dw/image/v2/AADV_PRD/on/demandware.static/-/Sites-taos-master-catalog/default/v1500523493363/images/productimages/00670535600183_1.png?sw=1400&sh=1400",
+            "Naivas": 150,
+            "Nakumatt": 150,
+            "Tuskys": 150,
+            "Uchumi": 150,
+            "category": "Personal Grooming"
+        },
+        "13": {
+            "name": "Detergent (2.5kg)",
+            "image": "https://mobileimages.lowes.com/product/converted/037000/037000510505.jpg",
+            "Naivas": 300,
+            "Nakumatt": 280,
+            "Tuskys": 285,
+            "Uchumi": 275,
+            "category": "Hygiene & Cleaning"
+        },
+        "14": {
+            "name": "Water (500ml)",
+            "image": "http://www.edensprings.co.uk/gfx/images/1/500ml_bottled_big.jpg",
+            "Naivas": 35,
+            "Nakumatt": 40,
+            "Tuskys": 38,
+            "Uchumi": 36,
+            "category": "Food & Drinks"
+        },
+        "15": {
+            "name": "Wall Clock",
+            "image": "http://media.architecturaldigest.com/photos/55f9e3e14254f7de34561d2a/master/pass/dam-images-shopping-2014-01-wall-clocks-wall-clocks-01-georg-jensen.jpg",
+            "Naivas": 400,
+            "Nakumatt": 500,
+            "Tuskys": 600,
+            "Uchumi": 500,
+            "category": "Utilities"
+        },
+        "16": {
+            "name": "Baby Bottle (300ml)",
+            "image": "https://assets.babycenter.com/ims/2014/03/Product-Philips-AdventNaturalFeedingBottles1.jpg",
+            "Naivas": 278,
+            "Nakumatt": 270,
+            "Tuskys": 250,
+            "Uchumi": 350,
+            "category": "Baby"
+        },
+        "17": {
+            "name": "Towels",
+            "image": "http://cdn.shopify.com/s/files/1/1154/7838/products/BathTowels-SideStack-1440x1240_grande.jpg?v=1484930561",
+            "Naivas": 200,
+            "Nakumatt": 202,
+            "Tuskys": 201,
+            "Uchumi": 210,
+            "category": "Hygiene & Cleaning"
+        },
+        "18": {
+            "name": "Cereals (500g)",
+            "image": "https://www.theeasymarket.com/image/cache/data/0003800000127-500x500.jpg",
+            "Naivas": 350,
+            "Nakumatt": 352,
+            "Tuskys": 351,
+            "Uchumi": 350,
+            "category": "Food & Drinks"
+        },
+        "19": {
+            "name": "Yoghurt",
+            "image": "https://www.pavels.net/wp-content/themes/pavels-bootscores/images/xyogurt_package_500x500.png.pagespeed.ic.ZrRRAh6WJD.png",
+            "Naivas": 150,
+            "Nakumatt": 152,
+            "Tuskys": 151,
+            "Uchumi": 150,
+            "category": "Food & Drinks"
+        },
+        "20": {
+            "name": "Sugar (2kg)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71-I1XxEkxL._SL1449_.jpg",
+            "Naivas": 150,
+            "Nakumatt": 152,
+            "Tuskys": 151,
+            "Uchumi": 150,
+            "category": "Food & Drinks"
+        },
+        "21": {
+            "name": "Chocolate Bar (100g)",
+            "image": "https://www.madewithnestle.ca/sites/default/files/nestle_product_kitkat-01-orig.png",
+            "Naivas": 90,
+            "Nakumatt": 92,
+            "Tuskys": 91,
+            "Uchumi": 90,
+            "category": "Food & Drinks"
+        },
+        "22": {
+            "name": "Cooking Oil (3l)",
+            "image": "https://s3-ap-southeast-1.amazonaws.com/media.redmart.com/newmedia/1600x/i/m/IMG_7045.JPG",
+            "Naivas": 250,
+            "Nakumatt": 250,
+            "Tuskys": 250,
+            "Uchumi": 250,
+            "category": "Food & Drinks"
+        },
+        "23": {
+            "name": "Exercise Book (Ruled - 200pgs)",
+            "image": "http://stationeryinfo.com/uploads/images/company/54eda82a4e7be2945d287367/pr/1424866785.png",
+            "Naivas": 150,
+            "Nakumatt": 170,
+            "Tuskys": 160,
+            "Uchumi": 140,
+            "category": "Stationery"
+        },
+        "24": {
+            "name": "Exercise Book (Squared - 200pgs)",
+            "image": "http://stationeryinfo.com/uploads/images/company/54eda82a4e7be2945d287367/pr/1424866785.png",
+            "Naivas": 150,
+            "Nakumatt": 170,
+            "Tuskys": 160,
+            "Uchumi": 140,
+            "category": "Stationery"
+        },
+        "25": {
+            "name": "Tea Bags (50 pack)",
+            "image": "http://www.vorply.com/media/2006/its-the-tea-bags-that-can-cause-the-problem-2.jpg",
+            "Naivas": 300,
+            "Nakumatt": 325,
+            "Tuskys": 350,
+            "Uchumi": 375,
+            "category": "Food & Drinks"
+        },
+        "26": {
+            "name": "Lego Set",
+            "image": "https://s-media-cache-ak0.pinimg.com/736x/0e/9f/0c/0e9f0cbccc433b532e2789d5823036a3--buy-lego-lego-lego.jpg",
+            "Naivas": 1000,
+            "Nakumatt": 900,
+            "Tuskys": 800,
+            "Uchumi": 700,
+            "category": "Baby"
+        },
+        "27": {
+            "name": "Biscuits (500g)",
+            "image": "http://i.dailymail.co.uk/i/pix/2016/12/05/18/3B120A3200000578-4002390-image-a-14_1480963305943.jpg",
+            "Naivas": 450,
+            "Nakumatt": 452,
+            "Tuskys": 451,
+            "Uchumi": 450,
+            "category": "Food & Drinks"
+        },
+        "28": {
+            "name": "Coffee (500g)",
+            "image": "https://www.ocado.com/productImages/120/12005011_1_640x640.jpg?identifier=f8fcb6a7322b78b6211dd035ba640a69",
+            "Naivas": 510,
+            "Nakumatt": 522,
+            "Tuskys": 531,
+            "Uchumi": 540,
+            "category": "Food & Drinks"
+        },
+        "29": {
+            "name": "Blender",
+            "image": "http://media.4rgos.it/s/Argos/4184647_R_SET?$Main768$&w=620&h=620",
+            "Naivas": 5000,
+            "Nakumatt": 5200,
+            "Tuskys": 5100,
+            "Uchumi": 5000,
+            "category": "Electronics"
+        },
+        "30": {
+            "name": "Electric Kettle",
+            "image": "https://n3.sdlcdn.com/imgs/a/h/j/Bajaj-KTX-15-Electric-Kettle-SDL013588219-1-3e960.jpg",
+            "Naivas": 2200,
+            "Nakumatt": 2400,
+            "Tuskys": 2600,
+            "Uchumi": 2800,
+            "category": "Electronics"
+        }
+    }
+}
