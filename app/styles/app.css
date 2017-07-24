@@ -1,0 +1,42 @@
+/*fonts
+font-family: 'Oxygen', sans-serif;
+font-family: 'Bree Serif', serif;
+*/
+
+.navbar-nav {
+    float: right;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2em;
+    padding-right: 50px;
+}
+
+.navbar-header {
+    list-style-type: none;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+#nav-contents {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
+    border-bottom: 0px white;
+}
+
+#nav-menu {
+    color: #c60000;
+    font-weight: 500;
+}
+
+#supa-header {
+    font-size: 2.5em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    color: #c60000;
+}
+
+#nav-tag {
+    border-bottom: 0px white;
+}
