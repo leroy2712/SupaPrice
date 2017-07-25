@@ -44,3 +44,18 @@ body {
 #nav-tag {
     border-bottom: 0px white;
 }
+/*input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}*/
+#system{
+  font-family: fantasy;
+  font-size: 20px;
+  color: #000000;
+}
+#style{
+  font-family: fantasy;
+  color: #000000;
+  font-size: 30px;
+}
