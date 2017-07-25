@@ -1,0 +1,11 @@
+<div class="cartList">
+
+    {{#each shoppingCart.products as |product|}}
+<!--    {{#link-to 'product-details' product.id}}<h4>{{product.name}} -- ${{product.price}}</h4>{{/link-to}} -->
+    <button class="removeItemButton"{{action 'removeFromCart' product}}>Remove</button>
+    {{/each}}
+
+  <h5>Total Price: Ksh. {{total-price shoppingCart.products shoppingCart.products.length}}</h5>
+  <button>PRINT RESULTS</button>
+
+</div>
