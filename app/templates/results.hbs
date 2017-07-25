@@ -1,1 +1,9 @@
-{{outlet}}
+<div class="productDetails">
+
+</div>
+
+{{#if addedToCart}}
+  <h5>This item is in your cart.</h5>
+{{else}}
+  <button {{action 'addToCart' model}}>Add to Cart</button>
+{{/if}}
