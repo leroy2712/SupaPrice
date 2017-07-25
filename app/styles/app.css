@@ -41,7 +41,7 @@ body {
     font-size: 2.5em;
     font-family: 'Bree Serif', serif;
     font-weight: 900;
-    color: #e2713d
+    color: #e2713d;
     list-style-type: none;
 }
 
@@ -50,8 +50,45 @@ body {
 }
 
 #footer {
-    padding-top: 15px;
     bottom: 0;
     margin-top: 50px;
 }
 
+#part-one {
+    color: #ffffff;
+    background-color: #333333;
+    padding-bottom: 50px;
+}
+
+#email {
+    border: 1px solid #7f7f7f;
+    background-color: #7f7f7f;
+    height: 50px;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#btn-email {
+    height: 50px;
+    width: 80%;
+    color: #000000;
+    font-size: 1.2em;
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+}
+
+#part-two {
+    padding-top: 25px;
+}
+
+.footer-lists {
+    list-style-type: none;
+    padding-left: 20px
+}
+
+.footer-head {
+    padding-left: 20px;
+    font-weight: 600;
+}
