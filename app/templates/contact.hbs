@@ -1,3 +1,40 @@
-{{#project-footer}}{{/project-footer}}
+<div class="container" id="contact">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <h2>Ask As Anything</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fname">First Name:</label>
+                    <input type="text" class="form-control contact" id="fname">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control contact" id="lname">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea type="text" class="form-control contact" id="message" rows=5></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control contact" id="contact-email">
+                </div>
+                <div class="form-group">
+                    <label for="county">Select list:</label>
+                    <select class="form-control" id="county">
+                         <option>Nairobi</option>
+                         <option>Mombasa</option>
+                         <option>Kisumu</option>
+                         <option>Kiambu</option>
+                         <option>Baringo</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-default" id="btn-contact">Submit</button>
+            </form>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>
 
-{{outlet}}
+{{#project-footer}}{{/project-footer}} {{outlet}}
