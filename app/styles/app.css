@@ -2,10 +2,6 @@
 font-family: 'Oxygen', sans-serif;
 font-family: 'Bree Serif', serif;
 */
-html, body {
-    height: 100%;
-}
-
 body {
     font-family: 'Oxygen', sans-serif;
 }
@@ -39,14 +35,21 @@ body {
 
 #supa-header {
     font-size: 2.5em;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 900;
+<<<<<<< HEAD
+    color: #c60000;
+=======
     color: #e2713d;
+>>>>>>> cef1d0255461eca7c1550b4161b8a972f2057d72
     list-style-type: none;
 }
 
 #nav-tag {
     border-bottom: 0px white;
+<<<<<<< HEAD
+}
+=======
 }
 
 /*input[type=text] {
@@ -135,3 +138,4 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
 .thumbnail {
   height: 100%;
 }
+>>>>>>> cef1d0255461eca7c1550b4161b8a972f2057d72
