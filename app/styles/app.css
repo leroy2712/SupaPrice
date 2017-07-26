@@ -133,3 +133,8 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
 .thumbnail {
   height: 100%;
 }
+.page-header{
+  text-align: center;
+  color: #000000;
+  font-family: fantasy;
+}
