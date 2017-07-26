@@ -270,5 +270,12 @@
             "Uchumi": 2800,
             "category": "Electronics"
         }
+    },
+    "review": {
+        "username": "",
+        "date": "",
+        "profilePicture": "",
+        "rating": "",
+        "reviewContent": ""
     }
 }

@@ -154,3 +154,25 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
 #message {
     border-radius: 0px;
 }
+
+.btn-about {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.btn-about:hover{
+    background-color: #e2713d;
+    border-color: #e2713d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.about-answer {
+    font-weight: 500;
+    font-size: 1.2em;
+}
