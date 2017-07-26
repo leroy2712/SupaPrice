@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Service.extend({
   products: [],
 
-  add(pro) {
-    this.get('products').pushObject(pro);
+  add(product) {
+    this.get('products').pushObject(product)
   },
-  remove(pro) {
-    this.get('products').removeObject(pro);
+  remove(product) {
+    this.get('products').removeObject(product)
   }
 });
