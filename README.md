@@ -1,5 +1,18 @@
-# supa-price
-
+# Project Name.
+## SUPA PRICE
+# Authors.
+* Leroy Omondi.
+* Kevin Matite.
+* Chege Kariuki.
+* Dan Kosgei.
+* njogu James.
+# Description.
+### super price is a web application that lets users search and compare prices for various products in our selected supermarket chain-stores, thereby allowing shoppers to judge for themselves which store best suits their pockets.
+# Technology Used.
+* EmberJs.
+* Javascript.
+* Html.
+* Css.
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
@@ -48,3 +61,5 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+# License.
+copyright 2017 [MIT]https://choosealicense.com/licenses/mit
