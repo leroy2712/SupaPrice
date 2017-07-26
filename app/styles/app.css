@@ -86,11 +86,18 @@ body {
 
 #btn-email {
     height: 50px;
-    width: 80%;
-    color: #000000;
-    font-size: 1.2em;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.3em;
     border-radius: 0px;
-    border: 1px solid #ffffff;
+    border: 1px solid #e2713d;
+    background-color: #e2713d;
+}
+
+#btn-email:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 #part-two {
