@@ -45,7 +45,6 @@ body {
 #nav-tag {
     border-bottom: 0px white;
 }
-}
 
 /*input[type=text] {
     width: 130px;
@@ -87,11 +86,18 @@ body {
 
 #btn-email {
     height: 50px;
-    width: 80%;
-    color: #000000;
-    font-size: 1.2em;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.3em;
     border-radius: 0px;
-    border: 1px solid #ffffff;
+    border: 1px solid #e2713d;
+    background-color: #e2713d;
+}
+
+#btn-email:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 #part-two {
@@ -137,4 +143,48 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
   text-align: center;
   color: #000000;
   font-family: fantasy;
+}
+
+#contact {
+    margin-top: 125px;
+}
+
+.contact {
+    width: 100%;
+    border-radius: 0;
+}
+
+#contact-email, #fname, #lname, #btn-contact, #county {
+    height: 50px;
+    border-radius: 0;
+}
+
+#btn-contact {
+    width: 100%;
+}
+
+#message {
+    border-radius: 0px;
+}
+
+.btn-about {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.btn-about:hover{
+    background-color: #e2713d;
+    border-color: #e2713d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.about-answer {
+    font-weight: 500;
+    font-size: 1.2em;
 }
