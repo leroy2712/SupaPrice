@@ -1,16 +1,11 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
+export default Ember.Component.extend({
   shoppingCart: Ember.inject.service(),
-  addedToCart: false,
-
-  model(params) {
-    return this.store.findRecord('products', params.products_id);
-  },
 
   actions: {
     addToCart(product) {
-      alert("Added!");
+      alert("Added to Cart!");
       this.set('addedToCart', true);
       this.get('shoppingCart').add(product);
     },

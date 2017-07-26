@@ -5,9 +5,8 @@ export default Ember.Route.extend({
   addedToCart: false,
 
   model(params) {
-    return this.store.findRecord('products', params.products_id);
+    return this.store.findRecord('product', params.product_id);
   },
-
   actions: {
     addToCart(product) {
       alert("Added!");

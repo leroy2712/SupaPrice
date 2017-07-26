@@ -1,9 +1,18 @@
 <div class="cartList">
 
-    {{#each shoppingCart.products as |product|}}
-<!--    {{#link-to 'product-details' product.id}}<h4>{{product.name}} -- ${{product.price}}</h4>{{/link-to}} -->
-    <button class="removeItemButton"{{action 'removeFromCart' product}}>Remove</button>
-    {{/each}}
+  {{#each shoppingCart.products as |products|}}
+    {{#link-to 'check' products.id}}
+      <h3>{{products.name}}</h3>
+      <h5><span class="priceAtNaivas">NAIVAS: Ksh. {{products.Naivas}}</span></h5>
+      <h5><span class="priceAtNakumatt">NAKUMATT: Ksh. {{products.Nakumatt}}</span></h5>
+      <h5><span class="priceAtTuskys">TUSKYS: Ksh. {{products.Tuskys}}</span></h5>
+      <h5><span class="priceAtUchumi">UCHUMI: Ksh. {{products.Uchumi}}</span></h5>
+      <div class="thumbnail">
+        <img src="{{products.image}}" alt="">
+      </div>
+    {{/link-to}}
+    <button class="removeItemButton" {{action 'removeFromCart' product}}>Remove</button>
+  {{/each}}
 
   <h5>Total Price: Ksh. {{total-price shoppingCart.products shoppingCart.products.length}}</h5>
   <button>PRINT RESULTS</button>

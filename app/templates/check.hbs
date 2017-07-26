@@ -1,1 +1,26 @@
-{{outlet}}
+<div class="check-div">
+  <h3>{{model.name}}</h3>
+  <h5><span class="priceAtNaivas">NAIVAS: Ksh. {{model.Naivas}}</span></h5>
+  <h5><span class="priceAtNakumatt">NAKUMATT: Ksh. {{model.Nakumatt}}</span></h5>
+  <h5><span class="priceAtTuskys">TUSKYS: Ksh. {{model.Tuskys}}</span></h5>
+  <h5><span class="priceAtUchumi">UCHUMI: Ksh. {{model.Uchumi}}</span></h5>
+  <div class="thumbnail">
+    <img src="{{model.image}}" alt="">
+  </div>
+  {{#if addedToCart}}
+  <center>
+    <h5>This item is in your cart.</h5>
+  </center>
+  {{else}}
+    <button {{action 'addToCart'}}>Add to Cart</button>
+  {{/if}}
+
+  <div class="reviewList">
+    <!--  <h3>Reviews</h3> {{new-review saveReview="saveReview" model=model}}
+
+    {{#each model.reviews as |review|}}
+      {{review-tile review=review}}
+    </div>
+    {{/each}} -->
+  </div>
+</div>
