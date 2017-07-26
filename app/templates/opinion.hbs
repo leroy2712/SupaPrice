@@ -1,0 +1,20 @@
+<hr>
+<hr>
+<hr>
+<br>
+<h1 class="page-header">REVIEWS</h1>
+
+{{new-review saveNewReview="saveReview"}}
+
+
+<div class="review-list">
+  <h2 class="page-header">review List</h2>
+  {{#each model.reviews as |reviews|}}
+    <div class="">
+      <h4>{{reviews.username}} By {{reviews.reviewContent}}</h4>
+      {{update-reviews reviews=reviews deleteReviews="deleteReviews"}}
+      
+      <button {{action "deleteReviews" reviews}} class="btn btn-danger">Delete</button>
+    </div>
+  {{/each}}
+</div>

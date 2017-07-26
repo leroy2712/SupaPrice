@@ -7,7 +7,7 @@
 * Dan Kosgei.
 * njogu James.
 # Description.
-### super price is a web application that lets users search and compare prices for various products in our selected supermarket chain-stores, thereby allowing shoppers to judge for themselves which store best suits their pockets.
+ super price is a web application that lets users search and compare prices for various products in our selected supermarket chain-stores, thereby allowing shoppers to judge for themselves which store best suits their pockets.
 # Technology Used.
 * EmberJs.
 * Javascript.
