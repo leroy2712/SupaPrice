@@ -1,10 +1,7 @@
 <div class="cartList">
+  {{#link-to 'check' products.id}} {{/link-to}}
 
-
-    {{#link-to 'check' products.id}}
-
-    {{/link-to}}
-
+  <div class="table-responsive">
     <table class="table">
       <thead>
         <tr>
@@ -17,30 +14,18 @@
         </tr>
       </thead>
       <tbody>
-        {{#each shoppingCart.products as |products|}}
+      {{#each shoppingCart.products as |products|}}
         <tr>
           <th>{{products.name}}</th>
-          <td>{{products.Naivas}}</td>
-          <td>{{products.Nakumatt}}</td>
-          <td>{{products.Tuskys}}</td>
-          <td>{{products.Uchumi}}</td>
-          <td><button class="removeItemButton" {{action 'removeFromCart' product}}>Remove</button></td>
+          <td class="cart-price">{{products.Naivas}}</td>
+          <td class="cart-price">{{products.Nakumatt}}</td>
+          <td class="cart-price">{{products.Tuskys}}</td>
+          <td class="cart-price">{{products.Uchumi}}</td>
+          <td><button class="removeItemButton" {{action 'removeFromCart' product}} id="btn-contact">Remove</button></td>
         </tr>
-        {{/each}}
+      {{/each}}
+        {{total-price shoppingCart.products shoppingCart.products.length}}
       </tbody>
-      <thead>
-        <tr>
-          <th></th>
-          <th>{{totalPriceNaivas}}</th>
-          <th>{{totalPriceNakumatt}}</th>
-          <th>{{totalPriceTuskys}}</th>
-          <th>{{totalPriceUchumi}}</th>
-        </tr>
-      </thead>
     </table>
-
-
-  <h5>Total Price: Ksh. {{total-price shoppingCart.products shoppingCart.products.length}}</h5>
-  <button>PRINT RESULTS</button>
-
+  </div>
 </div>

@@ -1,23 +1,50 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <h3>{{model.name}}</h3>
-      <h5><span class="priceAtNaivas">NAIVAS: Ksh. {{model.Naivas}}</span></h5>
-      <h5><span class="priceAtNakumatt">NAKUMATT: Ksh. {{model.Nakumatt}}</span></h5>
-      <h5><span class="priceAtTuskys">TUSKYS: Ksh. {{model.Tuskys}}</span></h5>
-      <h5><span class="priceAtUchumi">UCHUMI: Ksh. {{model.Uchumi}}</span></h5>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <h3 class="text-center">{{model.name}}</h3>
       <div class="thumbnail">
         <img src="{{model.image}}" alt="">
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Supermarket</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Naivas</td>
+              <td>{{model.Naivas}}</td>
+            </tr>
+            <tr>
+              <td>Nakumatt</td>
+              <td>{{model.Nakumatt}}</td>
+            </tr>
+            <tr>
+              <td>Tuskys</td>
+              <td>{{model.Tuskys}}</td>
+            </tr>
+            <tr>
+              <td>Uchumi</td>
+              <td>{{model.Uchumi}}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       {{#if addedToCart}}
       <center>
         <h5>This item is in your cart.</h5>
       </center>
       {{else}}
-      <button {{action 'addToCart' model}}>Add to Cart</button> {{/if}}
+      <div class="text-center">
+        <button {{action 'addToCart' model}} id="btn-check">Add to Cart</button>
+      </div>
+      {{/if}}
     </div>
-    <div class="col-sm-2"></div>
+    <div class="col-sm-4"></div>
   </div>
 </div>
 

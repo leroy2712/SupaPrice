@@ -20,7 +20,7 @@ export function totalPrice(cartItems) {
     totalPriceUchumi = priceUchumi + totalPriceUchumi;
     return totalPriceNaivas && totalPriceNakumatt && totalPriceTuskys && totalPriceUchumi;
   });
-  totalPrice = ("Naivas Total: " + totalPriceNaivas + " Nakumatt Total: " + totalPriceNakumatt + " Tuskys Total: " + totalPriceTuskys + " Uchumi Total: " + totalPriceUchumi);
+  totalPrice = Ember.String.htmlSafe('<tr class="total-cost"><th>Total Prices</th><th>' +totalPriceNaivas+ '</th><th>' +totalPriceNakumatt+ '</th><th>' +totalPriceTuskys+ '</th><th>' +totalPriceUchumi+ '</th><th></th>');
   return totalPrice;
 }
 

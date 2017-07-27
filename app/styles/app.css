@@ -141,6 +141,29 @@ ul.block-grid-4 > li {
 ul.block-grid-4 > li:nth-of-type(4n+1) {
    clear: left;
 }
+
+#products-name {
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+#btn-view {
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #333333;
+    color: #ffffff;
+    font-size: 1.2em;
+    height: 50px;
+    background-color: #333333;
+}
+
+#btn-view:hover {
+    color: #e2713d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
 /*index*/
 
 .row.display-flex {
@@ -176,6 +199,19 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
 
 #btn-contact {
     width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#btn-contact:hover {
+    background-color: #e2713d;
+    border-color: #e2713d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #message {
@@ -213,3 +249,69 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
     border-radius: 0px;
 }
 /*Search*/
+
+/*carousel*/
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+/*carousel*/
+
+/*check*/
+#btn-check {
+    width: 80%;
+    height: 50px;
+    font-size: 1.2em;
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#btn-check:hover {
+    background-color: #e2713d;
+    border-color: #e2713d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/*check*/
+
+/*cart*/
+ .cart-price {
+     font-weight: 800;
+ }
+
+ .total-cost {
+     color: #e2713d;
+     font-size: 1.5em;
+ }
