@@ -1,9 +1,44 @@
 <div class="cartList">
 
-    {{#each shoppingCart.products as |product|}}
-<!--    {{#link-to 'product-details' product.id}}<h4>{{product.name}} -- ${{product.price}}</h4>{{/link-to}} -->
-    <button class="removeItemButton"{{action 'removeFromCart' product}}>Remove</button>
-    {{/each}}
+
+    {{#link-to 'check' products.id}}
+
+    {{/link-to}}
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Naivas</th>
+          <th>Nakumatt</th>
+          <th>Tuskys</th>
+          <th>Uchumi</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each shoppingCart.products as |products|}}
+        <tr>
+          <th>{{products.name}}</th>
+          <td>{{products.Naivas}}</td>
+          <td>{{products.Nakumatt}}</td>
+          <td>{{products.Tuskys}}</td>
+          <td>{{products.Uchumi}}</td>
+          <td><button class="removeItemButton" {{action 'removeFromCart' product}}>Remove</button></td>
+        </tr>
+        {{/each}}
+      </tbody>
+      <thead>
+        <tr>
+          <th></th>
+          <th>{{totalPriceNaivas}}</th>
+          <th>{{totalPriceNakumatt}}</th>
+          <th>{{totalPriceTuskys}}</th>
+          <th>{{totalPriceUchumi}}</th>
+        </tr>
+      </thead>
+    </table>
+
 
   <h5>Total Price: Ksh. {{total-price shoppingCart.products shoppingCart.products.length}}</h5>
   <button>PRINT RESULTS</button>

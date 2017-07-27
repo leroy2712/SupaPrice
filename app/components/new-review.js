@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
+export default Ember.Component.extend ({
   addNewReviewForm: false,
   actions: {
     showNewReviewForm() {
@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         profilePicture: this.get("profilePicture"),
         rating: parseInt(this.get("rating")),
         reviewContent: this.get("reviewContent"),
-        opinion: this.get("opinion") //Don't foget to connect review to opinion route
+        review: this.get("review") //Don't foget to connect review to book
       };
       this.set("addNewReviewForm", false);
       this.sendAction("saveNewReview", params);

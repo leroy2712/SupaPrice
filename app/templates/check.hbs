@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <h3>{{model.name}}</h3>
+      <h5><span class="priceAtNaivas">NAIVAS: Ksh. {{model.Naivas}}</span></h5>
+      <h5><span class="priceAtNakumatt">NAKUMATT: Ksh. {{model.Nakumatt}}</span></h5>
+      <h5><span class="priceAtTuskys">TUSKYS: Ksh. {{model.Tuskys}}</span></h5>
+      <h5><span class="priceAtUchumi">UCHUMI: Ksh. {{model.Uchumi}}</span></h5>
+      <div class="thumbnail">
+        <img src="{{model.image}}" alt="">
+      </div>
+      {{#if addedToCart}}
+      <center>
+        <h5>This item is in your cart.</h5>
+      </center>
+      {{else}}
+      <button {{action 'addToCart' model}}>Add to Cart</button> {{/if}}
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+{{#project-footer}}{{/project-footer}} {{outlet}}
