@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('contact');
   this.route('results');
   this.route('review');
+  this.route('opinion');
+  this.route('product', {path: '/products/:products_id'});
+  this.route('check', {path: '/products/:products_id'});
 });
 
 export default Router;

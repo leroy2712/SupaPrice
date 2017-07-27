@@ -193,3 +193,7 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
     font-weight: 500;
     font-size: 1.2em;
 }
+
+.check-div, .cartList{
+  padding-top: 220px;
+}

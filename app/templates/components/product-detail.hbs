@@ -1,0 +1,27 @@
+<div class="productImage">
+  <img src="{{product.image}}">
+</div>
+
+<h2>{{product.name}}</h2>
+<h3><span class="priceAtNaivas">${{product.Naivas}}</span></h3>
+<br>
+<h3><span class="priceAtNakumatt">${{product.Nakumatt}}</span></h3>
+<br>
+<h3><span class="priceAtTuskys">${{product.Tuskys}}</span></h3>
+<br>
+<h3><span class="priceAtUchumi">${{product.Uchumi}}</span></h3>
+<h4>By {{product.seller}}</h4>
+
+{{#if addedToCart}}
+  <h5>This item is in your cart.</h5>
+{{else}}
+  <button {{action 'addToCart' product}}>Add to Cart</button>
+{{/if}}
+
+<div class="reviewList">
+<!--  <h3>Reviews</h3> {{new-review saveReview="saveReview" product=product}}
+
+  {{#each product.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}} -->
+</div>
