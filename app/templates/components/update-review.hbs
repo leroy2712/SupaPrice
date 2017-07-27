@@ -1,32 +1,32 @@
 {{#if updateReviewForm}}
   <div class="update-review">
-    <form class="form-group col-md-12">
+    <form class="form-group">
       <h2>Update Review</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <label>Username</label>
-          {{input value=reviews.username id="username" class="form-control"}}
+          {{input value=review.username id="username" class="form-control"}}
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <label>Date</label>
-          {{input value=reviews.date id="date" class="form-control" type="date"}}
+          {{input value=review.date id="date" class="form-control" type="date"}}
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-xs-6">
           <label>Profile Picture URL</label>
-          {{input value=reviews.profilePicture id="profilePicture" class="form-control"}}
+          {{input value=review.profilePicture id="profilePicture" class="form-control"}}
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <label>Rating (1-5)</label>
-          {{input value=reviews.rating id="rating" class="form-control"}}
+          {{input value=review.rating id="rating" class="form-control"}}
         </div>
       </div>
       <div>
         <label>Review Content</label>
         {{textarea value=review.reviewContent id="reviewContent" class="form-control"}}
       </div>
-      <button {{action "updateReview" reviews}} class="btn btn-success">Save</button>
+      <button {{action "updateReview" review}} class="btn btn-success">Save</button>
     </form>
   </div>
 {{else}}

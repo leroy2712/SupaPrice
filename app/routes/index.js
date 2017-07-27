@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-    model(params) {
-    return this.store.findAll('products', params.product_id);
-  },
+    model() {
+    return this.store.findAll('review');
+  }
 });

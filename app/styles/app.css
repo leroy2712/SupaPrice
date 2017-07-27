@@ -139,10 +139,15 @@ ul.block-grid-4 > li:nth-of-type(4n+1) {
 .thumbnail {
   height: 100%;
 }
+.rev{
+  margin-top: 200px;
+}
+
 .page-header{
   text-align: center;
   color: #000000;
   font-family: fantasy;
+  margin-top: 200px;
 }
 
 #contact {

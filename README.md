@@ -11,9 +11,11 @@
 # Technology Used.
 * EmberJs.
 * Javascript.
+* bower
 * Html.
 * Css.
-This README outlines the details of collaborating on this Ember application.
+* firebase.
+##### This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
 ## Prerequisites
@@ -50,9 +52,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Deploying.
 
-Specify what it takes to deploy your app.
+The app is deployed at [Heroku](supaprice.herokuapp.com)
 
 ## Further Reading / Useful Links
 
