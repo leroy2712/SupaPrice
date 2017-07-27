@@ -1,0 +1,16 @@
+<div class="rev">
+<h1 class="page-header">REVIEWS</h1>
+
+{{new-review saveNewReview="saveNewReview"}}
+
+<div class="review-list">
+  <h2 class="page-header">Review List</h2>
+  {{#each model.review as |review|}}
+    <div class="">
+      <h4>{{review.reviewContent}} By {{review.username}}</h4>
+      {{update-review review=review deleteReview="deleteReview"}}
+      <button {{action "deleteReview" review}} class="btn btn-danger">Delete</button>
+    </div>
+  {{/each}}
+</div>
+</div>
