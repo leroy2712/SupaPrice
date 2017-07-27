@@ -10,7 +10,6 @@ Router.map(function() {
   this.route('cart');
   this.route('about');
   this.route('contact');
-  this.route('results');
   this.route('review');
   this.route('opinion');
   this.route('search');
