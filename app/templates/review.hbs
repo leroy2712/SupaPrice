@@ -1,18 +1,33 @@
-<div class="rev">
-<h1 class="page-header">REVIEWS</h1>
+<div class="contanier">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <h1 class="text-center">REVIEWS</h1>
+      <hr>
+      <br>
+      {{new-review saveNewReview="saveNewReview"}}
+      <br>
+      <div class="review-list">
+        <h2 class="page-header">Review List</h2>
+        <br>
+        {{#each model.review as |review|}}
 
-{{new-review saveNewReview="saveNewReview"}}
-
-<div class="review-list">
-  <h2 class="page-header">Review List</h2>
-  {{#each model.review as |review|}}
-    <div class="">
-      <h4>{{review.reviewContent}} By {{review.username}}</h4>
-      {{update-review review=review deleteReview="deleteReview"}}
-      <button {{action "deleteReview" review}} class="btn btn-danger">Delete</button>
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3>By {{review.username}}</h3>
+          </div>
+          <div class="panel-body">
+            <p id="review-content">{{review.reviewContent}}</p>
+            {{update-review review=review deleteReview="deleteReview"}}
+            <br>
+            <button {{action "deleteReview" review}} class="btn-delete">Delete</button>
+          </div>
+        </div>
+        {{/each}}
+      </div>
     </div>
-  {{/each}}
-</div>
+    <div class="col-sm-3"></div>
+  </div>
 </div>
 
 {{#project-footer}}{{/project-footer}}
