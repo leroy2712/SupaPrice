@@ -21,7 +21,7 @@
           <td class="cart-price">{{products.Nakumatt}}</td>
           <td class="cart-price">{{products.Tuskys}}</td>
           <td class="cart-price">{{products.Uchumi}}</td>
-          <td><button class="removeItemButton" {{action 'removeFromCart' product}} id="btn-contact">Remove</button></td>
+          <td><button class="removeItemButton" {{action 'removeFromCart' products}} id="btn-contact">Remove</button></td>
         </tr>
       {{/each}}
         {{total-price shoppingCart.products shoppingCart.products.length}}

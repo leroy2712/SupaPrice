@@ -15,7 +15,22 @@
   </div>
   <div class="form-group">
     <label>Rate Us (1-5 scale)</label>
-    {{input required value=rating id="rating" class="form-control" type="number"}}
+    <br>
+    <button {{action 'sortedRating5'}} type="button" class="btn btn-info" id="fiveStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 5 Stars
+    </button>
+    <button {{action 'sortedRating4'}} type="button" class="btn btn-info" id="fourStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 4 Stars
+    </button>
+    <button {{action 'sortedRating3'}} type="button" class="btn btn-info" id="threeStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 3 Stars
+    </button>
+    <button {{action 'sortedRating2'}} type="button" class="btn btn-info" id="twoStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 2 Stars
+    </button>
+    <button {{action 'sortedRating1'}} type="button" class="btn btn-info" id="oneStar">
+      <span class="glyphicon glyphicon-star"></span> 1 Stars
+    </button>
   </div>
   <div class="form-group">
     <label for="reviewContent">Review Content</label>

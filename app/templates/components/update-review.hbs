@@ -14,9 +14,25 @@
     <label for="profilePicture">Enter Picture URL</label>
     {{input value=review.profilePicture id="profilePicture" class="form-control"}}
   </div>
-  <div class="form-group">
+  <div class="form-group starRatings">
     <label for="rating">Rate Us (1-5 scale)</label>
-    {{input value=review.rating id="rating" class="form-control"}}
+    <br>
+    <button {{action 'sortedRating5'}} type="button" class="btn btn-info" id="fiveStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 5 Stars
+    </button>
+    <button {{action 'sortedRating4'}} type="button" class="btn btn-info" id="fourStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 4 Stars
+    </button>
+    <button {{action 'sortedRating3'}} type="button" class="btn btn-info" id="threeStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 3 Stars
+    </button>
+    <button {{action 'sortedRating2'}} type="button" class="btn btn-info" id="twoStar">
+      <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 2 Stars
+    </button>
+    <button {{action 'sortedRating1'}} type="button" class="btn btn-info" id="oneStar">
+      <span class="glyphicon glyphicon-star"></span> 1 Stars
+    </button>
+    <!-- {{input value=review.rating id="rating" class="form-control" min="1" max="5"}} -->
   </div>
   <div class="form-group">
     <label for="reviewContent">Review Content</label>

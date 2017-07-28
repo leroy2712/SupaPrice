@@ -1,14 +1,19 @@
 import Ember from 'ember';
 
-export function reviewRating(rating) {
-  var reviewRating = rating; 
+export function reviewRating(params) {
+  var rating = params[0].get('rating');
 
-  var starIcon = "<span class='glyphicon glyphicon-star'></span>";
-  var emptyStarIcon = "<span class='glyphicon glyphicon-star-empty'></span>";
-  var filledStars = starIcon.repeat(reviewRating);
-  var emptyStars = emptyStarIcon.repeat(5 - reviewRating);
-
-  return Ember.String.htmlSafe(filledStars + emptyStars);
+  if(rating == 5) {
+    return Ember.String.htmlSafe('<i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>');
+  } else if(rating == 4) {
+    return Ember.String.htmlSafe('<i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>');
+  } else if(rating == 3) {
+    return Ember.String.htmlSafe('<i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>');
+  } else if(rating == 2 ) {
+    return Ember.String.htmlSafe('<i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>');
+  } else {
+    return Ember.String.htmlSafe('<i class="glyphicon glyphicon-star"></i>');
+  }
 }
 
 export default Ember.Helper.helper(reviewRating);

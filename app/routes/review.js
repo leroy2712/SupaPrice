@@ -10,8 +10,18 @@ export default Ember.Route.extend ({
   actions: {
     saveNewReview(params) {
       var newReview = this.store.createRecord("review", params);
-      newReview.save();
-      this.transitionTo("review");
+      var reviewed = params.reviewed;
+      reviewed.get('reviews').addObject(newReview);
+      newReview.save().then(function(){
+        return reviewed.save();
+      })
+      //Empty form values
+      this.set("username", "");
+      this.set("date", "");
+      this.set("profilePicture", "");
+      this.set("rating", "");
+      this.set("reviewContent", "");
+      this.transitionTo("review", params.reviewed);
     },
     deleteReview(review) {
       if (confirm("Are you sure you want to delete this review?")) {
